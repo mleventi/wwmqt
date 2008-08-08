@@ -1,0 +1,17 @@
+<div class="qtext">
+    <?php echo $questionhtml; ?>
+    <input id="resp<?php echo $qid; ?>_seed" name="resp<?php echo $qid; ?>_seed" type="hidden" value="<?php echo $seed; ?>" />
+</div>
+
+
+<div class="ablock clearfix">
+    <?php $this->print_question_submit_buttons($question, $state, $cmoptions, $options); ?>
+    <br>
+    <?php echo $answertable; ?>
+    <?php if (isset($feedback)) { ?>
+    <div class="feedback">
+        <?php echo $feedback; ?>
+    </div>
+    <?php } ?>
+</div>
+  

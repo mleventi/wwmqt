@@ -1,0 +1,7 @@
+= WeBWorK Moodle Question Type
+
+This application is a question type within Moodle. It allows WeBWorK questions to be used in various modules in Moodle. Most notably you can assign WeBWorK questions within a Moodle quiz. This allows a teacher to assign timed quizzes for homework, weekly problem sets, and/or practice exercises. From the perspective of a user who is new to WeBWorK or already comfortable with Moodle this is the recommended application for integration with WeBWorK.
+
+More information on installation and usage can be found at:
+
+http://webwork.maa.org/wiki/Moodle_Question_Type
